@@ -34,9 +34,9 @@ diamond_subset <- diamonds %>%
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
+### adding my own stuff - non-ideal subset, less than 1
+diamond_subset <- diamonds %>%
+  filter(carat < 1 & cut == 'Non-Ideal')
 
 
 ```
