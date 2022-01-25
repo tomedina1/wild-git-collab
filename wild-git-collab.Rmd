@@ -50,8 +50,7 @@ diamonds %>%
 ## STEP 11: And even more merge conflicts!
 
 ```{r break-it-2}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
-
+### now subset exactly equal to 1
+diamond_subset_another <- diamonds %>%
+  filter(carat == 1)
 
