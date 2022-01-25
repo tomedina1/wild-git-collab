@@ -34,9 +34,16 @@ diamond_subset <- diamonds %>%
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
+
+### adding my own stuff - non-ideal subset, less than 1
+diamond_subset <- diamonds %>%
+  filter(carat < 1 & cut == 'Non-Ideal')
+
 diamonds %>% 
   group_by(cut) %>% 
   summarize(mean_carat = mean(carat, na.rm = TRUE))
+ 
+ #kept both of our codes!
 
 ```
 
