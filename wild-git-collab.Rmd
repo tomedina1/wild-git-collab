@@ -34,9 +34,10 @@ ggplot(data = diamonds,
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-diamonds %>% 
-  group_by(cut) %>% 
-  summary(mean_carat = mean(cart, na.rm = TRUE))
+### Both partners - delete this comment, then write some code here
+### to plot, summarize, calculate something simple using the diamonds
+### dataset.
+
 
 ```
 
