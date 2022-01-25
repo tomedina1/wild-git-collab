@@ -54,4 +54,6 @@ diamonds %>%
 ### to plot, summarize, calculate something simple using the diamonds
 ### dataset.
 
-
+ggplot(data = diamonds,
+       aes(x = color, y = carat)) +
+  geom_point(aes(color = clarity))
